@@ -69,28 +69,28 @@ include CMakeFiles/exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/exe.dir/flags.make
 
-CMakeFiles/exe.dir/main.cpp.o: CMakeFiles/exe.dir/flags.make
-CMakeFiles/exe.dir/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/main.cpp
-CMakeFiles/exe.dir/main.cpp.o: CMakeFiles/exe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matthatter/Practice/practice/cpp/rt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exe.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exe.dir/main.cpp.o -MF CMakeFiles/exe.dir/main.cpp.o.d -o CMakeFiles/exe.dir/main.cpp.o -c /home/matthatter/Practice/practice/cpp/rt/main.cpp
+CMakeFiles/exe.dir/src/main.cpp.o: CMakeFiles/exe.dir/flags.make
+CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src/main.cpp
+CMakeFiles/exe.dir/src/main.cpp.o: CMakeFiles/exe.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/matthatter/Practice/practice/cpp/rt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exe.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exe.dir/src/main.cpp.o -MF CMakeFiles/exe.dir/src/main.cpp.o.d -o CMakeFiles/exe.dir/src/main.cpp.o -c /home/matthatter/Practice/practice/cpp/rt/src/main.cpp
 
-CMakeFiles/exe.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exe.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matthatter/Practice/practice/cpp/rt/main.cpp > CMakeFiles/exe.dir/main.cpp.i
+CMakeFiles/exe.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matthatter/Practice/practice/cpp/rt/src/main.cpp > CMakeFiles/exe.dir/src/main.cpp.i
 
-CMakeFiles/exe.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exe.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matthatter/Practice/practice/cpp/rt/main.cpp -o CMakeFiles/exe.dir/main.cpp.s
+CMakeFiles/exe.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matthatter/Practice/practice/cpp/rt/src/main.cpp -o CMakeFiles/exe.dir/src/main.cpp.s
 
 # Object files for target exe
 exe_OBJECTS = \
-"CMakeFiles/exe.dir/main.cpp.o"
+"CMakeFiles/exe.dir/src/main.cpp.o"
 
 # External object files for target exe
 exe_EXTERNAL_OBJECTS =
 
-exe: CMakeFiles/exe.dir/main.cpp.o
+exe: CMakeFiles/exe.dir/src/main.cpp.o
 exe: CMakeFiles/exe.dir/build.make
 exe: CMakeFiles/exe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/matthatter/Practice/practice/cpp/rt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable exe"

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/matthatter/Practice/practice/cpp/rt/headers
 
 CXX_FLAGS = 
 
