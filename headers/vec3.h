@@ -91,22 +91,22 @@ inline std::ostream& operator<< (std::ostream& out,const vec3& v)
 
 inline vec3 operator+(const vec3& a,const vec3& b)
 {
-    return vec3(a.p[0]+b.p[0],a.p[1]+b.p[2],a.p[3]+b.p[3]);
+    return vec3(a.p[0]+b.p[0],a.p[1]+b.p[1],a.p[2]+b.p[2]);
 }
 
 inline vec3 operator-(const vec3& a,const vec3& b)
 {
-    return vec3(a.p[0]-b.p[0],a.p[1]-b.p[2],a.p[3]-b.p[3]);
+    return vec3(a.p[0]-b.p[0],a.p[1]-b.p[1],a.p[2]-b.p[2]);
 }
 
 inline vec3 operator*(const vec3& a,const vec3& b)
 {
-    return vec3(a.p[0]*b.p[0],a.p[1]*b.p[2],a.p[3]*b.p[3]);
+    return vec3(a.p[0]*b.p[0],a.p[1]*b.p[1],a.p[2]*b.p[2]);
 }
 
 inline vec3 operator*(const double t,const vec3& b)
 {
-    return vec3(t*b.p[0],t*b.p[1],t*b.p[3]);
+    return vec3(t*b.p[0],t*b.p[1],t*b.p[2]);
 }
 
 inline vec3 operator*(const vec3& b,const double t)
@@ -121,12 +121,14 @@ inline vec3 operator/(const vec3& a,double t)
 
 inline double dot(const vec3& a,const vec3& b)
 {
-    return (a[0]*b[0])+(a[1]*b[1])+(a[2]*b[2]);
+    return (a.p[0]*b.p[0])+(a.p[1]*b.p[1])+(a.p[2]*b.p[2]);
 }
 
 inline vec3 cross(const vec3& a,const vec3& b)
 {
-    return vec3((a.p[1]*b.p[2]-a.p[2]*b.p[1]),(a.p[2]*b.p[0]-a.p[0]*b.p[2]),(a.p[0]*b.p[1]-a.p[1]*b.p[0]));
+    return vec3((a.p[1]*b.p[2]-a.p[2]*b.p[1]),
+               (a.p[2]*b.p[0]-a.p[0]*b.p[2]),
+            (a.p[0]*b.p[1]-a.p[1]*b.p[0]));
 }
 
 inline vec3 unit_vector(const vec3& v)
