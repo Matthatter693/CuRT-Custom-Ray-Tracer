@@ -4,6 +4,14 @@
 
 #include<iostream>
 
+/*color ray_color(const ray& r) {
+    vec3 unit_direction = unit_vector(r.direction());
+    auto t = 0.5 * (unit_direction.y() + 1.0);  // t ranges from 0 (bottom) to 1 (top)
+
+    // Interpolate between white (1,1,1) and blue (0,0,1)
+    return (1.0 - t) * color(1.0, 1.0, 1.0) + t * color(0.0, 0.0, 1.0);
+}*/
+
 color ray_color(const ray& r)
 {
     //return color(0,0,0);
