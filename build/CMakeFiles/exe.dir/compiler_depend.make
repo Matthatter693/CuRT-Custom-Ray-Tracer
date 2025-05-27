@@ -8,8 +8,10 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/c++/13/algorithm \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_ios.h \
@@ -51,17 +53,21 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
@@ -90,6 +96,8 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
   /usr/include/c++/13/limits \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/execution_defs.h \
+  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
@@ -247,8 +255,6 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
@@ -301,8 +307,6 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
@@ -325,6 +329,16 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/stdio.h:
+
+/usr/include/sched.h:
+
 /usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
@@ -344,6 +358,10 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 /usr/include/c++/13/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/c++/13/bits/invoke.h:
 
@@ -365,27 +383,19 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/c++/13/bits/char_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/home/matthatter/Practice/practice/cpp/rt/headers/color.h:
-
 /usr/include/c++/13/bits/ostream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
 
 /usr/include/c++/13/bits/ios_base.h:
+
+/home/matthatter/Practice/practice/cpp/rt/headers/color.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/c++/13/bits/nested_exception.h:
 
 /usr/include/c++/13/bits/move.h:
 
@@ -394,6 +404,18 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 /usr/include/c++/13/tr1/hypergeometric.tcc:
 
 /usr/include/c++/13/type_traits:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/c++/13/bit:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/alloca.h:
 
 /usr/include/c++/13/cwctype:
 
@@ -406,14 +428,6 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/cwchar:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/bits/exception.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -439,35 +453,21 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/c++/13/backward/binders.h:
 
-/usr/include/c++/13/bits/stringfwd.h:
+/usr/include/time.h:
 
-/usr/include/alloca.h:
-
-/usr/include/c++/13/bit:
-
-/usr/include/c++/13/bits/basic_string.tcc:
+/usr/include/c++/13/bits/memoryfwd.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
 
 /home/matthatter/Practice/practice/cpp/rt/src/main.cpp:
+
+/usr/include/c++/13/bits/stl_heap.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/c++/13/bits/localefwd.h:
 
 /usr/include/c++/13/bits/locale_facets.h:
-
-/usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -477,6 +477,16 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/c++/13/string:
 
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/algorithm:
+
 /usr/include/c++/13/bits/istream.tcc:
 
 /usr/include/c++/13/bits/exception_ptr.h:
@@ -484,6 +494,14 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/new:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -493,6 +511,22 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/c++/13/ios:
 
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/locale.h:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/13/bits/std_abs.h:
@@ -500,6 +534,12 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 /usr/include/c++/13/bits/postypes.h:
 
 /usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/wctype.h:
+
+/usr/include/c++/13/exception:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -511,8 +551,6 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/c++/13/cerrno:
 
-/usr/include/stdio.h:
-
 /usr/include/c++/13/clocale:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
@@ -520,6 +558,8 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 /usr/include/c++/13/cmath:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/c++/13/bits/stl_algo.h:
 
 /usr/include/c++/13/cstddef:
 
@@ -569,9 +609,13 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/c++/13/limits:
 
-/usr/include/c++/13/ext/alloc_traits.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
 
-/usr/include/c++/13/new:
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/usr/include/c++/13/pstl/execution_defs.h:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
@@ -605,19 +649,7 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 
 /usr/include/c++/13/tr1/gamma.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/13/exception:
-
-/usr/include/wctype.h:
-
 /usr/include/c++/13/tr1/legendre_function.tcc:
-
-/usr/include/c++/13/tr1/poly_hermite.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/locale.h:
 
 /usr/include/c++/13/bits/streambuf_iterator.h:
 
@@ -636,11 +668,3 @@ CMakeFiles/exe.dir/src/main.cpp.o: /home/matthatter/Practice/practice/cpp/rt/src
 /usr/include/linux/errno.h:
 
 /usr/include/pthread.h:
-
-/usr/include/sched.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
